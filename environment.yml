@@ -1,0 +1,13 @@
+name: translation_conda_env
+channels:
+  - conda-forge
+  - pytorch
+  - huggingface
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - gradio
+    - transformers[sentencepiece]
+    - torch
+    - ipykernel
